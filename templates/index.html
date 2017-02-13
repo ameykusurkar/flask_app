@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<table border="1">
+<tr>
+  <td><h3>Key</h3></td>
+  <td><h3>Value</h3></td>
+</tr>
+{% for entry in entries %}
+<tr>
+  <td>{{entry.key}}</td>
+  <td>{{entry.value}}</td>
+</tr>
+{% else %}
+  No entries.
+{% endfor %}
+</table>
+<br>
+<a href="/add">Add values</a>
+  

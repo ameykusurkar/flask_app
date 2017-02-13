@@ -1,0 +1,5 @@
+*.pyc
+gocardless_interview/*
+*.DS_Store
+*.sw*
+*.db
