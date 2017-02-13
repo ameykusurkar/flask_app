@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-{% for entry in entries %}
+<h1>Hello {{username}}</h1>
 <table border="1">
 <tr>
   <td><h3>Key</h3></td>
   <td><h3>Value</h3></td>
 </tr>
+{% for entry in entries %}
 <tr>
   <td>{{entry.key}}</td>
   <td>{{entry.value}}</td>
@@ -15,4 +16,5 @@
 </table>
 <br>
 <a href="/add">Add values</a>
+<a href="/logout">Logout</a>
   
